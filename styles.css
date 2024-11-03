@@ -1,0 +1,82 @@
+body {
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  margin: 0;
+  background-image: linear-gradient(white, rgb(66, 54, 163));
+  background-repeat: no-repeat;
+}
+h1 {
+  font-family: "Jersey 10 Charted", sans-serif;
+  font-size: 3.5rem;
+  color: rgb(14, 0, 93);
+  text-align: center;
+  padding: 20px;
+  border-radius: 8px;
+}
+h2 {
+  font-family: "Jersey 10 Charted", sans-serif;
+  font-size: 3.5rem;
+  color: rgba(14, 0, 93, 0.777);
+}
+.jersey-10-charted-regular {
+  font-family: "Jersey 10 Charted", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+input {
+  font-size: 30px;
+  min-width: 10vw;
+  width: 35rem;
+  height: 4rem;
+  margin: 8vh 8vw 7vh 4vw;
+  border-radius: 25px;
+  border-style: none;
+  background-color: rgba(207, 207, 207, 0.505);
+  box-shadow: 0px 10px 0px 0px rgba(0, 0, 0, 0.233);
+}
+
+.emojis {
+  font-size: 8vh;
+  margin: 0vh 8vw 0vw 8vh;
+}
+
+p {
+  font-size: 4vh;
+  display: flex;
+  display: inline-flex;
+  margin: 0vh 5vw 0vh 10vw;
+}
+#button {
+  background-color: rgba(207, 207, 207, 0.505);
+  border-radius: 40%;
+  height: 6.5vh;
+  width: 75px;
+  box-shadow: 0px 10px 0px 0px rgba(0, 0, 0, 0.233);
+  border-style: none;
+}
+.box {
+  text-align: center;
+  margin-top: 15vh;
+}
+#result {
+  margin-top: 20px;
+  font-size: 1.5em;
+}
+#scoreboard {
+  margin-top: 25vh;
+  font-size: 1.2em;
+}
+#reset-button {
+  background-color: rgba(207, 207, 207, 0.505);
+  border-radius: 40%;
+  height: 6.5vh;
+  width: 75px;
+  box-shadow: 0px 10px 0px 0px rgba(0, 0, 0, 0.233);
+  border-style: none;
+  margin: 6vh 0vh 3vh 0vh;
+}
+#reset {
+  margin: 0vh 0vw 0vh 0vw;
+}
